@@ -1,0 +1,32 @@
+.recipe{
+    /* border: 1px dashed #FF5E3D; */
+    margin-bottom: 1rem;
+    color: darkslategrey;
+    text-align: left;
+    
+}
+
+.recipe-header{
+    /* color: #FFB076; */
+    
+}
+
+.recipe-title{
+    color: darkslategrey;
+    font-weight: normal;
+}
+.recipe-content{
+    /* margin: 2rem; */
+    /* padding: 2rem; */
+}
+
+.recipe-metrics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recipe-metrics--metric{
+
+}

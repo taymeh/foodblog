@@ -1,0 +1,15 @@
+.tip{
+    background-color: plum;
+    padding: 1rem;
+    margin: 1rem; 
+    border: 4px solid magenta;
+    text-align: left;
+    width: 21em;
+    margin: 0 auto;
+}
+
+.tip-title{
+    color: magenta;
+    font-weight: bolder;
+    
+}

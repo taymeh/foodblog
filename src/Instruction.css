@@ -1,0 +1,10 @@
+.instruction{
+    display: flex;
+    flex-direction: row;
+}
+
+.instruction-step-number{
+    width: 25px;
+    padding-right: 10px;
+    text-align: right;
+}

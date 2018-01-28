@@ -1,0 +1,33 @@
+.recipe{
+    /* border: 1px dashed #FF5E3D; */
+    margin: 1rem 0;
+    color: darkslategrey;
+    text-align: left;
+    
+}
+
+.recipe-title{
+    color: darkslategrey;
+    font-weight: normal;
+}
+.recipe-content{
+    /* margin: 2rem; */
+    /* padding: 2rem; */
+}
+
+.recipe-body{
+    /* margin-top: 3rem; */
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.recipe-subhead{
+    color: darkslategrey;
+    font-size: 12pt;
+}
+.recipe-subhead--title{
+    margin-top: 3rem;
+    font-size: 14pt;
+    color: gray;
+}
+

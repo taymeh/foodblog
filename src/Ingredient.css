@@ -1,0 +1,23 @@
+.ingredient-set{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.ingredient-set-subhead{
+    color: darkslategrey;
+    font-size: 10pt;
+    font-weight: bold;
+    padding-bottom: .5rem;
+}
+
+.ingredient-line-item{
+    display: flex;
+    flex-direction: row;
+}
+
+.ingredient-amount{
+    font-weight: bolder;
+    color: #FF5E3D;
+    padding-right: .5rem;
+}

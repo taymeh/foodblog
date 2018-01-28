@@ -1,0 +1,35 @@
+.filter-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.filter-bar-item{
+    padding: 0 1rem;
+}
+
+.filter-bar-item-separator{
+    height: 1rem;
+    width: 1px;
+    background-color: black;
+}
+
+.filter-bar-item--selectable::after {
+    display: block;
+    content: attr(title);
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.filter-bar-item--selectable:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.filter-bar-item-label{
+    color: lightgray;
+}
